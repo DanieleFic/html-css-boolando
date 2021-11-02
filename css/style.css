@@ -1,3 +1,4 @@
+/* proprietà pagina */
 *{
     margin: auto;
     padding: 0;
@@ -6,27 +7,27 @@
 }
 body {
     width: 60%;
-  }
+}
 .row:after {
     content: "";
     display: table;
     clear: both;
-  }
-
+}
+/* Proprietà colonne */
   .column {
     position: relative;
     float: left;
     width: 33.33%;
     padding: 15px 20px 40px 0;
-    
-  }
+}
   
-  /* Clearfix (clear floats) */
-  .row::after {
+  
+.row::after {
     content: "";
     clear: both;
     display: table;
 }
+/* proprietà immagini  e testo */
 .row img{
     width: 100%;
 }
