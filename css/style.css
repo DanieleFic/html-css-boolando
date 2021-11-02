@@ -72,3 +72,19 @@ body {
     left: 9%;
     padding: 4px;
 }
+
+.image{
+    position: relative;
+}
+.img-hover{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.image:hover .img-hover{
+    z-index: 2;
+}
