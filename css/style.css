@@ -14,9 +14,10 @@ body {
   }
 
   .column {
+    position: relative;
     float: left;
     width: 33.33%;
-    padding: 15px 20px 100px 0;
+    padding: 15px 20px 40px 0;
     
   }
   
@@ -28,4 +29,18 @@ body {
 }
 .row img{
     width: 100%;
+}
+.text-brand{
+    font-size: 13px;
+}
+.text-price{
+    font-size: 13px;
+    font-weight: 900;
+    color: red;
+}
+.sale{
+    text-decoration: line-through;
+}
+.sale-tag{
+    position: absolute;
 }
