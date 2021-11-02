@@ -31,7 +31,9 @@ body {
 .row img{
     width: 100%;
 }
+
 .text-brand{
+
     font-size: 13px;
 }
 .text-price{
@@ -51,15 +53,17 @@ body {
     color: white;
     font-weight: 900;
     display: inline-block;
+    z-index: 3;
 }
 .hearth{
     position: absolute;
     top: 6%;
     left: 87%;
-    width: 50px;
+    width: 40px;
     height: 30px;
     font-size: 22px;
     background-color: white;
+    z-index: 3;
     
 }
 .sost-tag{
@@ -71,6 +75,7 @@ body {
     top: 75%;
     left: 9%;
     padding: 4px;
+    z-index: 3;
 }
 
 .image{
