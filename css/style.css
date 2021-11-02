@@ -54,11 +54,12 @@ body {
 .hearth{
     position: absolute;
     top: 6%;
-    left: 90%;
+    left: 87%;
     width: 50px;
     height: 30px;
     font-size: 22px;
     background-color: white;
+    
 }
 .sost-tag{
     position: absolute;
@@ -69,29 +70,4 @@ body {
     top: 75%;
     left: 9%;
     padding: 4px;
-}
-
-.image1:hover{
-    content: url(/img/1b.webp);
-    width: 100%;
-}
-.image2:hover{
-    content: url(/img/2b.webp);
-    width: 100%;
-}
-.image3:hover{
-    content: url(/img/3b.webp);
-    width: 100%;
-}
-.image4:hover{
-    content: url(/img/4b.webp);
-    width: 100%;
-}
-.image5:hover{
-    content: url(/img/5b.webp);
-    width: 100%;
-}
-.image6:hover{
-    content: url(/img/6b.webp);
-    width: 100%;
 }
